@@ -15067,9 +15067,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C15" library="capacitor-wima" deviceset="C" device="5/2.5" value="22pF"/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
-<part name="U$39" library="SparkFun-Connectors" deviceset="MINI-DIN6" device="PTH" value="MINI-DIN6"/>
-<part name="U$40" library="SparkFun-Connectors" deviceset="DB15" device="" value="DSUB15"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="2.5MM"/>
+<part name="U$39" library="SparkFun-Connectors" deviceset="MINI-DIN6" device="PTH" value="KEYBOARD"/>
+<part name="U$40" library="SparkFun-Connectors" deviceset="DB15" device="" value="MONITOR"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="AUDIO-JACK" device="2.5MM" value="AUDIO"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH" value="POWER 5V"/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
@@ -15766,19 +15766,19 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <junction x="213.36" y="340.36"/>
 </segment>
 <segment>
-<pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="259.08" x2="119.38" y2="256.54" width="0.1524" layer="91"/>
-<junction x="119.38" y="256.54"/>
-<pinref part="C8" gate="G$1" pin="+"/>
-<wire x1="119.38" y1="256.54" x2="132.08" y2="256.54" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="+"/>
+<pinref part="C8" gate="G$1" pin="+"/>
 <wire x1="132.08" y1="256.54" x2="142.24" y2="256.54" width="0.1524" layer="91"/>
 <junction x="132.08" y="256.54"/>
-<pinref part="JP2" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="248.92" x2="109.22" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="248.92" x2="109.22" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="256.54" x2="119.38" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
+<wire x1="119.38" y1="259.08" x2="119.38" y2="256.54" width="0.1524" layer="91"/>
+<junction x="119.38" y="256.54"/>
+<wire x1="119.38" y1="256.54" x2="132.08" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="256.54" x2="76.2" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="256.54" x2="76.2" y2="254" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="PWR"/>
+<wire x1="76.2" y1="254" x2="68.58" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="VCC"/>
@@ -15869,10 +15869,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
 <wire x1="119.38" y1="248.92" x2="119.38" y2="246.38" width="0.1524" layer="91"/>
 <junction x="119.38" y="248.92"/>
-<wire x1="119.38" y1="248.92" x2="111.76" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="248.92" x2="111.76" y2="254" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="PWR"/>
-<wire x1="111.76" y1="254" x2="68.58" y2="254" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="GND"/>
+<wire x1="68.58" y1="248.92" x2="114.3" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="GNDBREAK"/>
+<wire x1="114.3" y1="248.92" x2="119.38" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="251.46" x2="114.3" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="251.46" x2="114.3" y2="248.92" width="0.1524" layer="91"/>
+<junction x="114.3" y="248.92"/>
 </segment>
 <segment>
 <pinref part="BUZZER" gate="G$1" pin="2"/>
