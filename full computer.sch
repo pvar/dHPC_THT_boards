@@ -13849,6 +13849,88 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-3.81" y="5.08" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-3.81" y="4.06" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="SDCARD_4UCONN">
+<description>4UConn part#19646</description>
+<smd name="1" x="-1" y="6.77" dx="1.8" dy="0.9" layer="1"/>
+<smd name="2" x="-1" y="4.27" dx="1.8" dy="0.9" layer="1"/>
+<smd name="3" x="-1" y="2.52" dx="1.8" dy="0.9" layer="1"/>
+<smd name="CD" x="-1" y="1.02" dx="1.8" dy="0.9" layer="1"/>
+<smd name="4" x="-1" y="-0.73" dx="1.8" dy="0.9" layer="1"/>
+<smd name="5" x="-1" y="-3.23" dx="1.8" dy="0.9" layer="1"/>
+<smd name="6" x="-1" y="-5.73" dx="1.8" dy="0.9" layer="1"/>
+<smd name="7" x="-1" y="-8.15" dx="1.8" dy="0.9" layer="1"/>
+<smd name="8" x="-1" y="-9.85" dx="1.8" dy="0.9" layer="1"/>
+<smd name="SH@1" x="20" y="14.75" dx="2" dy="1.4" layer="1"/>
+<smd name="SH@2" x="21.15" y="-14.75" dx="2" dy="1.4" layer="1"/>
+<smd name="WP" x="-1" y="-13" dx="1.8" dy="1.1" layer="1"/>
+<smd name="9" x="-1" y="9.27" dx="1.8" dy="0.9" layer="1"/>
+<wire x1="0" y1="14.25" x2="28.8" y2="14.25" width="0.127" layer="51"/>
+<wire x1="28.8" y1="14.25" x2="28.8" y2="10" width="0.127" layer="51"/>
+<wire x1="28.8" y1="10" x2="28.8" y2="-8" width="0.127" layer="51"/>
+<wire x1="28.8" y1="-8" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
+<wire x1="28.8" y1="-10.5" x2="28.8" y2="-14.25" width="0.127" layer="51"/>
+<wire x1="28.8" y1="-14.25" x2="0" y2="-14.25" width="0.127" layer="51"/>
+<wire x1="0" y1="-14.25" x2="0" y2="14.25" width="0.127" layer="51"/>
+<hole x="23.3" y="11.94" drill="1.55"/>
+<hole x="23.3" y="-12.32" drill="1.55"/>
+<text x="0.54" y="12.94" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.54" y="11.67" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.095" y1="10.019" x2="-0.095" y2="14.418" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="14.418" x2="5.239" y2="14.418" width="0.254" layer="21"/>
+<wire x1="21.849" y1="14.318" x2="28.888" y2="14.318" width="0.254" layer="21"/>
+<wire x1="28.888" y1="14.318" x2="28.9" y2="12.9" width="0.254" layer="21"/>
+<wire x1="23.011" y1="-14.327" x2="28.888" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="28.888" y1="-14.327" x2="28.888" y2="-13.349" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="-14.238" x2="-0.095" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="-14.327" x2="5.239" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="35.6" y1="12" x2="35.6" y2="-13" width="0.127" layer="51"/>
+<text x="34.9" y="-9.3" size="1.27" layer="51" rot="R90">card lock position</text>
+<wire x1="28.8" y1="10" x2="28" y2="10" width="0.127" layer="51"/>
+<wire x1="28" y1="10" x2="18" y2="0" width="0.127" layer="51" curve="90"/>
+<wire x1="28" y1="-10.5" x2="18" y2="-0.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="18" y1="0" x2="18" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="28" y1="-10.5" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
+</package>
+<package name="SD_1:1">
+<smd name="1" x="-1" y="6.77" dx="1.8" dy="0.9" layer="1"/>
+<smd name="2" x="-1" y="4.27" dx="1.8" dy="0.9" layer="1"/>
+<smd name="3" x="-1" y="2.52" dx="1.8" dy="0.9" layer="1"/>
+<smd name="CD" x="-1" y="1.02" dx="1.8" dy="0.9" layer="1"/>
+<smd name="4" x="-1" y="-0.73" dx="1.8" dy="0.9" layer="1"/>
+<smd name="5" x="-1" y="-3.23" dx="1.8" dy="0.9" layer="1"/>
+<smd name="6" x="-1" y="-5.73" dx="1.8" dy="0.9" layer="1"/>
+<smd name="7" x="-1" y="-8.15" dx="1.8" dy="0.9" layer="1"/>
+<smd name="8" x="-1" y="-9.85" dx="1.8" dy="0.9" layer="1"/>
+<smd name="SH@1" x="20" y="14.496" dx="2" dy="1.4" layer="1"/>
+<smd name="SH@2" x="21.15" y="-13.589" dx="2" dy="1.527" layer="1"/>
+<smd name="WP" x="-1" y="-13" dx="1.8" dy="1.1" layer="1"/>
+<smd name="9" x="-1" y="9.27" dx="1.8" dy="0.9" layer="1"/>
+<wire x1="0" y1="14.25" x2="28.8" y2="14.25" width="0.127" layer="51"/>
+<wire x1="28.8" y1="14.25" x2="28.8" y2="10" width="0.127" layer="51"/>
+<wire x1="28.8" y1="10" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
+<wire x1="28.8" y1="-10.5" x2="28.8" y2="-14.25" width="0.127" layer="51"/>
+<wire x1="28.8" y1="-14.25" x2="0" y2="-14.25" width="0.127" layer="51"/>
+<wire x1="0" y1="-14.25" x2="0" y2="14.25" width="0.127" layer="51"/>
+<hole x="23.3" y="11.94" drill="1.55"/>
+<hole x="23.3" y="-12.32" drill="1.55"/>
+<text x="0.54" y="12.94" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.54" y="11.67" size="0.4064" layer="27">&gt;VALUE</text>
+<wire x1="-0.095" y1="10.019" x2="-0.095" y2="14.418" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="14.418" x2="5.239" y2="14.418" width="0.254" layer="21"/>
+<wire x1="21.849" y1="14.318" x2="28.888" y2="14.318" width="0.254" layer="21"/>
+<wire x1="28.888" y1="14.318" x2="28.9" y2="12.9" width="0.254" layer="21"/>
+<wire x1="23.011" y1="-14.327" x2="28.888" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="28.888" y1="-14.327" x2="28.888" y2="-13.349" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="-14.238" x2="-0.095" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="-14.327" x2="5.239" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="35.6" y1="12" x2="35.6" y2="-13" width="0.127" layer="51"/>
+<text x="34.9" y="-9.3" size="1.27" layer="51" rot="R90">card lock position</text>
+<wire x1="28.8" y1="10" x2="28" y2="10" width="0.127" layer="51"/>
+<wire x1="28" y1="10" x2="18" y2="0" width="0.127" layer="51" curve="90"/>
+<wire x1="28" y1="-10.5" x2="18" y2="-0.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="18" y1="0" x2="18" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="28" y1="-10.5" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M06">
@@ -13945,6 +14027,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="GNDBREAK" x="2.54" y="5.08" visible="off" length="short" rot="R180"/>
 <pin name="GND" x="2.54" y="2.54" visible="off" length="short" rot="R180"/>
 <pin name="PWR" x="2.54" y="7.62" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="SDCARD-1">
+<wire x1="-7.62" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<pin name="CD/DAT3" x="-12.7" y="0" length="middle"/>
+<pin name="CMD" x="-12.7" y="2.54" length="middle"/>
+<pin name="VSS1" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
+<pin name="VDD" x="-12.7" y="15.24" length="middle" direction="pwr"/>
+<pin name="CLK" x="-12.7" y="5.08" length="middle"/>
+<pin name="VSS2" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
+<pin name="DAT0" x="-12.7" y="12.7" length="middle"/>
+<pin name="DAT1" x="-12.7" y="10.16" length="middle"/>
+<pin name="DAT2" x="-12.7" y="7.62" length="middle"/>
+<text x="-7.366" y="18.288" size="1.778" layer="95">&gt;Name</text>
+<pin name="WP" x="-12.7" y="-5.08" length="middle"/>
+<pin name="CD" x="-12.7" y="-2.54" length="middle"/>
+<text x="-7.112" y="-20.32" size="1.778" layer="96">&gt;Value</text>
+<pin name="SH@1" x="-12.7" y="-15.24" length="middle"/>
+<pin name="SH@2" x="-12.7" y="-12.7" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14189,6 +14292,54 @@ Mating wall wart : TOL-00298 (and others)</description>
 <technology name="">
 <attribute name="PROD_ID" value="PRT-10811" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SD_CARD_SOCKET" prefix="U">
+<description>SD Memory Card Connector, push-push normal type, CD enable, WP enable</description>
+<gates>
+<gate name="G$1" symbol="SDCARD-1" x="-66.04" y="10.16"/>
+</gates>
+<devices>
+<device name="4UCON" package="SDCARD_4UCONN">
+<connects>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="CD/DAT3" pad="1"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="2"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="9"/>
+<connect gate="G$1" pin="SH@1" pad="SH@1"/>
+<connect gate="G$1" pin="SH@2" pad="SH@2"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS1" pad="3"/>
+<connect gate="G$1" pin="VSS2" pad="6"/>
+<connect gate="G$1" pin="WP" pad="WP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SD_1:1">
+<connects>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="CD/DAT3" pad="1"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="2"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="9"/>
+<connect gate="G$1" pin="SH@1" pad="SH@1"/>
+<connect gate="G$1" pin="SH@2" pad="SH@2"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS1" pad="3"/>
+<connect gate="G$1" pin="VSS2" pad="6"/>
+<connect gate="G$1" pin="WP" pad="WP"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15077,6 +15228,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C7" library="capacitor-wima" deviceset="C" device="5/2.5" value="100nF"/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
+<part name="U1" library="SparkFun-Connectors" deviceset="SD_CARD_SOCKET" device="4UCON"/>
 </parts>
 <sheets>
 <sheet>
@@ -15176,6 +15328,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="C7" gate="G$1" x="269.24" y="317.5"/>
 <instance part="SUPPLY24" gate="GND" x="238.76" y="322.58"/>
 <instance part="SUPPLY25" gate="GND" x="269.24" y="307.34"/>
+<instance part="U1" gate="G$1" x="256.54" y="365.76"/>
 </instances>
 <busses>
 <bus name="DATA[0..7]">
@@ -16582,6 +16735,24 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="320.04" y1="322.58" x2="269.24" y2="322.58" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="322.58" x2="269.24" y2="320.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CLK"/>
+<wire x1="243.84" y1="370.84" x2="157.48" y2="370.84" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="370.84" x2="157.48" y2="307.34" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PB5"/>
+<wire x1="157.48" y1="307.34" x2="182.88" y2="307.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$48" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="CMD"/>
+<wire x1="243.84" y1="368.3" x2="154.94" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="368.3" x2="154.94" y2="304.8" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="PB6"/>
+<wire x1="154.94" y1="304.8" x2="182.88" y2="304.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
