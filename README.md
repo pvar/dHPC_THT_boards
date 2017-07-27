@@ -18,9 +18,9 @@ kind at [EuroCircuits][euro].
 ## Is it possible to make one?
 
 Of course it is! Keep in mind, though, that the three microcontrollers which comprise the system
-need to be "burnt" with the appropriate firmware. This means You'll need a programmer for AVR
-microcontrollers, such as [this one][avrisp]. If you have no idea what a programmer is, You
-definitely don't have one and You'll need the help of some electronics tinkerer/hobbyist/engineer.
+need to be "burnt" with the appropriate firmware. This means you'll need a programmer for AVR
+microcontrollers, such as [this one][avrisp]. If you have no idea what a programmer is, you'll
+need the help of some electronics tinkerer/hobbyist/engineer.
 
 ## I'm good to go! Where is the firmware?
 
